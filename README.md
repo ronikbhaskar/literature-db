@@ -11,7 +11,7 @@ Literature DB (LitDB) is a lightweight literature database that allows users to 
 Clone the project and install the requirements.
 
 ```Bash
-git clone 
+git clone https://github.com/ronikbhaskar/literature-db
 cd literature-db
 # create an environment if you so choose
 pip install -r requirements.txt
