@@ -2,6 +2,7 @@
 
 # contents and notes files of litdb
 litdb/*
+!litdb/README.md
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
