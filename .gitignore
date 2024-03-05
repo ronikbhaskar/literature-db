@@ -1,3 +1,8 @@
+.DS_Store
+
+# contents and notes files of litdb
+litdb/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

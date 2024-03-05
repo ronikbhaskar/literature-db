@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+    <link href='https://fonts.googleapis.com/css?family=Libre Caslon Text' rel='stylesheet'>
+<style>
+body {{
+  overflow: scroll;
+}}
+
+:root {{
+  --bg-color: black;
+  --color: white;
+  --width: min(64ch, 100% - 4rem);
+}}
+
+@media (prefers-color-scheme: light) {{
+  :root {{
+    --bg-color: white;
+    --color: black;
+  }}
+}}
+
+html {{
+  color-scheme: dark light;
+}}
+
+body {{
+  font-family: 'Libre Caslon Text', system-ui;
+  font-size: 1.125rem;
+  margin: 0;
+}}
+
+main {{
+  width: var(--width);
+  margin-inline: auto;
+  margin-top: 4rem;
+}}
+
+a {{
+  color: inherit;
+}}
+
+a:hover {{
+  font-style: italic;
+}}
+
+.ronik {{
+  content: "hey, you found me";
+}}
+
+</style>
+</head>
+<body>
+    <main>
+        <h1><a href="{source}">{title}</a></h1>
+        <h3>by {author}, <i>{date}</i></h3>
+        <br>
+        {body}
+    </main>
+</body>
+</html>
